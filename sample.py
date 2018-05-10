@@ -5,10 +5,10 @@ import ast,json
 
 
 #consumer key, consumer secret, access token, access secret.
-ckey="xxxxxxxxxxxxxxxxxxxxxxxx"
-csecret="xxxxxxxxxxxxxxxxxxxxxxxxxx"
-atoken="xxxxxxxxxxxx-xxxxxxxxxxxxxxxxx"
-asecret="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ckey="xxxxxxxxxx"
+csecret="xxxxxxxxxxx"
+atoken="xxxxx-xxxxxxxxxxxxxxx"
+asecret="xxxxxxxxxxxxxxxxxx"
 
 class listener(StreamListener):
 
