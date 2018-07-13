@@ -5,10 +5,11 @@ import ast,json
 
 
 #consumer key, consumer secret, access token, access secret.
-ckey="xxxxxxxxxx"
-csecret="xxxxxxxxxxx"
-atoken="xxxxx-xxxxxxxxxxxxxxx"
-asecret="xxxxxxxxxxxxxxxxxx"
+
+ckey="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+csecret="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+atoken="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+asecret="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 class listener(StreamListener):
 
@@ -29,6 +30,6 @@ auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 
 twitterStream = Stream(auth, listener())
-twitterStream.filter(track=["#csk","#mi",'#srh',"#rr","#kkr",'#kxip','#rcb','#dd'])
+twitterStream.filter(track=["csk","mi",'srh',"rr","kkr",'kxip','rcb','dd'])
 
 # api=tweepy.API(auth)
